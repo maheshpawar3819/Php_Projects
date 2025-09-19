@@ -11,3 +11,5 @@
 
 <a href="{{ route('products.index') }}" class="mt-4 inline-block text-blue-600">← Back to Products</a>
 </div>
+~
+@endsection
