@@ -14,6 +14,10 @@
     <h2 class="text-white text-2xl font-bold mb-8">MyApp</h2>
 
     <nav class="flex flex-col space-y-4">
+        {{-- Dashboar  --}}
+        <a href="{{ route('dashboard.index') }}" class="text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-lg">
+            Dashboard
+        </a>
         <!-- Categories Dropdown -->
         <div x-data="{ open: false }" class="space-y-2">
             <button 
